@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Jornada do Guardião</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um velho sábio te entrega uma missão: proteger uma relíquia poderosa que está escondida em uma terra distante. Ele te dá um mapa antigo e diz que você deve escolher o primeiro passo da jornada. Qual caminho você segue?</p>
+            <button class="btn-proximo" data-proximo="1">Deserto do Saara</button>
+            <button class="btn-proximo" data-proximo="2">Floresta Amazônica</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você escolhe atravessar o vasto Deserto do Saara, enfrentando tempestades de areia e calor escaldante. Ao chegar a um oásis, uma misteriosa figura te oferece um enigma. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Resolver o enigma</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar e continuar a viagem</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide adentrar a densa Floresta Amazônica. A carta indica que a relíquia está protegida por uma tribo antiga. Ao seguir o rio, você se depara com uma bifurcação. Qual direção você escolhe?</p>
+            <button class="btn-proximo" data-proximo="5">Seguir o rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="6">Seguir o rio à direita</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O enigma da figura misteriosa te leva a uma caverna escondida nas dunas, onde está guardado um artefato que revela a localização da relíquia na África Central.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a África Central</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da jornada">
+            <p>Você decide que a jornada é perigosa demais e retorna para casa, sempre se perguntando o que teria acontecido se tivesse continuado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Seguindo o rio à esquerda, você encontra uma antiga aldeia escondida. Os anciãos te entregam uma pista, dizendo que a relíquia está em um templo subterrâneo no coração da floresta.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o templo subterrâneo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Seguindo o rio à direita, você se perde entre os rios caudalosos e não encontra nenhum sinal da relíquia.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e seguir o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você chega ao destino final, mas a relíquia está protegida por uma série de armadilhas. Você deve usar sua inteligência e coragem para desativá-las e salvar o mundo de um grande mal.</p>
+            <button class="btn-proximo" data-proximo="9">Enfrentar as armadilhas</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Voltando para a bifurcação e escolhendo o outro caminho, você encontra a aldeia que te conduz ao templo subterrâneo.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o templo subterrâneo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Com coragem e astúcia, você supera todas as armadilhas e finalmente encontra a relíquia sagrada. Agora, você se torna o guardião da relíquia, responsável por protegê-la para as gerações futuras.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    background-color: #2C2F33; /* Um tom mais escuro, evocando mistério e exploração */
+    color: #E0E0D1; /* Cor mais suave, para contrastar melhor com o fundo escuro */
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/background-floresta.png'); /* Imagem de fundo que remete à floresta ou ambiente de exploração */
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    background-color: #D97742; /* Um tom terroso, lembrando terras antigas e civilizações perdidas */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+button:hover {
+    background-color: #A85D2A; /* Escurece o botão ao passar o mouse, para criar um efeito interativo */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 80%;
+    padding: 20px;
+    background-color: rgba(44, 47, 51, 0.8); /* Fundo semi-transparente para destacar o texto em relação ao fundo */
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Sombra suave para dar profundidade */
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px; /* Arredonda os cantos das imagens */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Sombra nas imagens para destacá-las */
+}
+
